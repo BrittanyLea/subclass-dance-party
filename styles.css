@@ -1,0 +1,51 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color: black;
+  background-image: url('mkarena.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: red;
+  font-family: sans-serif;
+}
+.title, .addDancerButton, .addLineUpButton {
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: black;
+}
+.title{
+  background-color: black;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.wiggledancer{
+  border:10px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
+.tinydancer {
+  border-radius: 5px;
+  border:5px solid green;
+  position:absolute;
+}
+.blinkydancer {
+  border-radius: 10px;
+  border:10px solid red;
+  position:absolute;
+}
+
+.lkdancer {
+  position:absolute;
+}
